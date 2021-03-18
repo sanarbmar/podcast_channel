@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Channel</title>
+    <!--estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--logo del title-->
+    <link rel="icon" type="image/svg" href="img/logo.svg">
+    <!--links google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--termino en los hovers-->
+    <header>
+        <!--menu escritorio-->
+      <nav class="nav-escritorio">
+            <div class="emboltura">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.svg" alt="logo" ></a>
+                </div>
+                
+                    <ul>
+                        <li class="hov">
+                            <a href="#episodios" class="hov">EPISODIOS</a>
+                        </li>
+                        <li class="hov">
+                            <a href="#contenedor-celular" class="hov">NOSOTROS</a>
+                        </li>
+                        <li class="hov">
+                            <a href="#invitadas-estelares" class="hov">ENTREVISTAS</a>
+                        </li>
+                        <li class="hov">
+                            <a href="#algunos-temas" class="hov">TÓPICOS</a>
+                        </li>
+                    </ul>
+                
+            </div>
+        </nav>
+        <!--menu movil-->
+      <nav class="nav-movil">
+            <div class="menu-desplegable ">
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="img/logo.svg" alt="Logo" class="logo-movil">
+                    <!--iconos para abrir y cerrar menu hamburguesa -->
+                    <i class="fas fa-bars"></i><!--barras -->
+                    <i class="fa fa-times"></i><!-- x -->
+                </label>
+                <div class="menu-azul">
+                    <ul>
+                        <li class="hov">
+                            <a href="#episodios" class="hov">EPISODIOS</a>
+                        </li>
+                        <li class="hov">
+                            <a href="#contenedor-celular" class="hov">NOSOTROS</a>
+                        </li>
+                        <li class="hov">
+                            <a href="#invitadas-estelares" class="hov">ENTREVISTAS</a>
+                        </li>
+                        <li class="hov">
+                            <a href="algunos-temas" class="hov">TÓPICOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--encabezado principal -->
+    <div class="encabezado">
+         <h1>Hello  <span id="linea">world</span> pale blue dot <span id="punto">.</span></h1>
+         <p>El portal de podcasts que explora el mundo de la programaci&oacute;n y <br> la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            
+            <div>
+                <button class="boton boton-mobile texto-boton">
+                    <strong>CONOCÉ MÁS</strong>
+                </button>
+            </div>
+    </div>
+    <!--sesion de episodios y podcast-->
+    <section id="episodios">
+        <h2 class="texto-episodio">Episodios</h2>
+        <div class="envoltura-iframe">
+        <div class="iframe">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/1zq89I5bDVtA1uq4DHusDw"    allow="encrypted-media"></iframe>
+        </div>
+        <div class="iframe">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/1zq89I5bDVtA1uq4DHusDw"    allow="encrypted-media"></iframe>
+        </div>
+        <div class="iframe">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/1zq89I5bDVtA1uq4DHusDw"    allow="encrypted-media"></iframe>
+        </div>
+        <div class="iframe">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/1zq89I5bDVtA1uq4DHusDw"    allow="encrypted-media"></iframe>
+        </div>
+        </div>
+    </section>
+    <!--sesion de telefono sobrepuesto con el section anterior-->
+    <section id="contenedor-celular">
+        
+        <img src="img/phone.png" alt="telefono celular" class="celular">
+     
+        <div class="texto-celular">
+            <h2>De d&oacute;nde venimos</h2>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+            <p id="espacio">
+            Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
+
+    </section>
+    <!--sesion invitados estelares -->
+    
+    <section id="invitadas">
+        <h2 id="invitadas-estelares">Invitadas/os estelares</h2>
+        <img src="img/grace-hopper.png" alt="grace-hopper" class="img-mujeres">
+        <img src="img/Katie-Bouman.png" alt="Katie-Bouman" class="img-mujeres">
+        <img src="img/Margaret_Hamilton.png" alt="Margaret_Hamilton" class="img-mujeres">
+        <img src="img/area.png" alt="computadoras en 1950" class="img-mujeres">
+        <img src="img/computero.png" alt="primeras computdors" class="img-mujeres">
+        <img src="img/susan-kare.png" alt="susas kare" class="img-mujeres">
+    </section>
+    <!--i-e es la misma clase del encabezado h2 de arriba "invitadas estelares"-->
+    
+    <section id="algunos-temas">
+        <h2 id="i-e">Algunos de nuestros temas</h2>
+       <div class="bajar-una-linea">
+       <div class="img-temas">
+           <img src="img/icon1.svg" alt="trabajo remoto">
+           <p>trabajo remoto</p>
+       </div>
+       <div class="img-temas">
+            <img src="img/icon2.svg" alt="repasando la programacion">
+            <p>Repasando la <br> programaci&oacute;n</p>
+       </div>
+       <div class="img-temas">
+            <img src="img/icon3.svg" alt="bases del codigo">
+            <p>Bases del c&oacute;digo</p>
+       </div>
+       <div class="img-temas">
+            <img src="img/icon4.svg" alt="seguridad informatica">
+            <p>Seguridad <br> inform&aacute;tica</p>
+       </div>
+        </div>
+    </section>
+
+    <section class="episodios2">
+        <!-- Título de la sección -->
+        
+            <h2>
+                ¿Querés las últimas novedades?
+            </h2>
+       
+        <!-- boton de la sesion -->
+        <div>
+            <button class="boton2 texto-boton">
+                <strong>ESCUCHÁ LOS EPISODIOS</strong>
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <ul class="items2">
+                    <!-- Contenido Left -->
+                    <li class="logo2">
+                        <p class="texto">
+                            © 2021 - Hello blue pale dot
+                        </p>
+                    </li>
+                    <!-- Contenido Right -->
+                    <li class="item2">
+                        <a class="nav-item2" href="https://open.spotify.com/" target=_blank>
+                            <i class="fab fa-spotify"></i>
+                        </a>
+                    </li>
+                    <li class="item2">
+                        <a class="nav-item2" href="https://www.instagram.com/" target=_blank>
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="item2">
+                        <a href="https://twitter.com/" target=_blank class="nav-item2">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="item2">
+                        <a href="https://www.facebook.com/" target=_blank class="nav-item2">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="item2">
+                        <a href="https://web.telegram.org/" target=_blank class="nav-item2">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>  
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/7864fe4603.js" crossorigin="anonymous"></script>   
+</body>
+</html>
